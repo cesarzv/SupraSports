@@ -27,7 +27,7 @@ server.use((req, res, next) => {
 });
 server.use(
   cors({
-    origin: 'https://supra-sports.vercel.app/',
+    origin: 'https://supra-sports.vercel.app',
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
     allowedHeaders: ['Authorization', 'Content-Type'],
     maxAge: 86400,
